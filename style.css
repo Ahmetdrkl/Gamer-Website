@@ -1,0 +1,94 @@
+.slider{
+    height: 500px;
+    width: 80%;
+  }
+
+  ul {
+      list-style-type: none;
+  
+      margin: 0;
+  
+      padding: 0;
+  
+      overflow: hidden;
+  
+      background-color: #000000;
+     
+  }
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+  
+      color: white;
+  
+      text-align: center;
+  
+      padding: 18px 18px;
+  
+      text-decoration: none;   
+  }
+.menu{
+    font-size: 25px;
+}
+.kayanyazi{
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    
+
+}
+
+.kayanyazi a::before{
+    color:white;
+} 
+#instaicon{
+    float: right;
+    padding-right: 10px;
+  
+    
+}
+#linkedinicon{
+    float: right;
+    padding-right: 10px;
+
+}
+#gmailicon{
+        float: right;
+        padding-right: 10px;
+}
+#twittericon{
+    float: right;
+        padding-right: 10px;
+}
+
+img{
+    opacity: 1;
+    transition: all 0.4s;
+    transform:scale(1);
+}
+img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+#anasayfa{
+    padding-top: 5px;
+}
+#oyunturleri{
+    padding-top: 5px;
+}
+#steam{
+    padding-top: 5px;
+}
+#epic{
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    text-size-adjust: 5px;
+}
